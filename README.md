@@ -13,10 +13,10 @@ Get it:
 Run it:
 
     docker run -p 9200:9200 -d --name elasticsearch mehedikhan/elasticsearch
-    docker run --name elasticsearch -p 9200:9200 -v /path/to/your/elasticsearch/data:/usr/share/elasticsearch/data -d mehedikhan/elasticsearch
-      
-    
-Then you can send emails from your app and check out the web interface: http://\<your docker host\>:1080/.
+    docker run --name elasticsearch -p 9200:9200 -v /path/to/your/elasticsearch/data:/usr/share/elasticsearch/data -d mehedikhan/elasticsearch      
+
+
+
 
 
   [elasticsearch]: https://www.elastic.co/ "MailCatcher fake SMTP server with web interface" 
